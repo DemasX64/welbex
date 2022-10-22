@@ -1,0 +1,15 @@
+.container {
+  padding: 16px;
+  gap: 16px;
+  display: flex;
+  width: -webkit-fill-available;
+  border: 1px solid #FFF;
+  justify-content: space-around;
+}
+
+.btnContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}

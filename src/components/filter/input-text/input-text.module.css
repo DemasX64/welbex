@@ -1,0 +1,22 @@
+.input {
+  flex: 1;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTitle {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.inputText {
+  color: #FFF;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #FFFFFF5F;
+  background-color: transparent;
+}
