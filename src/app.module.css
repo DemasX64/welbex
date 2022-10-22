@@ -4,3 +4,31 @@
   flex-direction: column;
   display: flex;
 }
+
+@media (max-width:1600px) {
+  .container {
+    margin: auto;
+    width: 1280px;
+    flex-direction: column;
+    display: flex;
+  }
+}
+@media (max-width:1280px) {
+  .container {
+    margin: auto;
+    width: 968px;
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+@media (max-width:968px) {
+  .container {
+    margin: auto;
+    width: 768px;
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+

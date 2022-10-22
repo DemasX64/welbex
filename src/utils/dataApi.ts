@@ -24,7 +24,7 @@ export const getData = createAsyncThunk<DataType[][], void, {rejectValue: DataTy
       }
     } catch (e) {
       console.log(e)
-      return thunkApi.rejectWithValue(mockData);
+      return thunkApi.rejectWithValue(mockData, );
     }
   }
 )
